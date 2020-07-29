@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:vivaintra/app/shared/widgets/avatar.dart';
+
 
 class LoadingShimmer extends StatelessWidget {
   const LoadingShimmer({Key key}) : super(key: key);
@@ -20,7 +20,6 @@ class LoadingShimmer extends StatelessWidget {
               children: <Widget>[
                 Row(
                   children: <Widget>[
-                    Avatar(),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
